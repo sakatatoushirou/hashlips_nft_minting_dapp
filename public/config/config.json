@@ -3,8 +3,8 @@
   "SCAN_LINK": "https://rinkeby.etherscan.io/address/0x0E7d119CCe851BEe203B6926F9BBA6786B319EA8",
   "NETWORK": {
     "NAME": "Rinkeby",
-    "SYMBOL": "Matic",
-    "ID": 137
+    "SYMBOL": "ETH",
+    "ID": 4
   },
   "NFT_NAME": "Nerdy Coder Clones",
   "SYMBOL": "NCC",
