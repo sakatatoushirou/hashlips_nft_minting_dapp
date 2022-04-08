@@ -1,6 +1,6 @@
 {
-  "CONTRACT_ADDRESS": "0x827acb09a2dc20e39c9aad7f7190d9bc53534192",
-  "SCAN_LINK": "https://polygonscan.com/token/0x827acb09a2dc20e39c9aad7f7190d9bc53534192",
+  "CONTRACT_ADDRESS": "0x0E7d119CCe851BEe203B6926F9BBA6786B319EA8",
+  "SCAN_LINK": "https://rinkeby.etherscan.io/address/0x0E7d119CCe851BEe203B6926F9BBA6786B319EA8",
   "NETWORK": {
     "NAME": "Polygon",
     "SYMBOL": "Matic",
