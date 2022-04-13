@@ -152,6 +152,11 @@ function App() {
       });
   };
 
+  const withdrawal = () => {
+    blockchain.smartContract.methods
+        .withdraw(mintAmount).send()
+  };
+
   const decrementMintAmount = () => {
     let newMintAmount = mintAmount - 1;
     if (newMintAmount < 1) {
@@ -361,6 +366,19 @@ function App() {
                         }}
                       >
                         {claimingNft ? "BUSY" : "BUY"}
+                      </StyledButton>
+                    </s.Container>
+                    <br/>
+                    <s.Container ai={"center"} jc={"center"} fd={"row"}>
+                      <StyledButton
+                          disabled={claimingNft ? 1 : 0}
+                          onClick={(e) => {
+                            e.preventDefault();
+                            withdrawal();
+                            getData();
+                          }}
+                      >
+                        {claimingNft ? "BUSY" : "提现"}
                       </StyledButton>
                     </s.Container>
                   </>
